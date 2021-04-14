@@ -1,0 +1,93 @@
+body{
+  background-image: url("./computer_room.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 20px;
+
+
+}
+
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+}
+h1, h2, h4, p{
+  text-shadow: 1px 1px blue;
+  color: black;
+} 
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body {
+font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+  margin:0;
+}
+ a {
+  color: inherit;
+ }
+ nav {
+   top: 0;
+   width: 100%;
+   position: sticky;
+   background-color: #007bce;
+ }
+ .container {
+   padding: 10px;
+   margin: 0 auto;
+   text-align: center;
+   position: sticky;
+
+ }
+ .container ul li {
+   list-style: none;
+   /* margin: 0px 10px; */
+   display: inline-block;
+ }
+ .container ul li a:hover {
+   /* padding: 12px; */
+   color: #fc0;
+ }
+ .container ul li a {
+   margin: 15px;
+   padding: 10px;
+   color: #fff;
+   font-size: 1.2em;
+   text-decoration: none;
+   transition: all 0.3s ease-out;
+ }
+ .active {
+   border-bottom: 2px solid #d0d7d9;
+ }
+ .container p{
+ /* margin-bottom: 16px; */
+ /* color: #fc0; */
+ font-weight: 700;
+ font-size: 20px;
+ }
+ .item {
+  width: 100%;
+  /* padding: 50px; */
+  /* height: 280px; */
+  text-align: center;
+  background-color: rgba(236, 240, 241, .6);
+  border-bottom: 1px solid #ccc;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+
+}
+.first {
+  margin-top: 100px;
+}
+.default {
+  margin-top: 64px;
+}
+.col-full {
+  width: 1044px;
+}
